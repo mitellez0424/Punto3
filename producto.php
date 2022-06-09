@@ -20,14 +20,14 @@
                         
                         <div class="col-md-3">
                             <h1>Ingrese datos</h1>
-                                <form action="insertar.php" method="POST">
+                                <form action="insertar.php" method="POST" enctype="multipart/form-data">
 
                                     <input type="text" class="form-control mb-3" name="Nombre" placeholder="Nombre">
                                     <input type="number" class="form-control mb-3" name="SKU" placeholder="Codigo">
                                     <textarea class="form-control mb-3" name="Descripcion" id="" cols="30" rows="10" placeholder="descripcion"></textarea>
                                     <input type="number" class="form-control mb-3" name="Valor" placeholder="Valor">
                                     <input type="tienda" class="form-control mb-3" name="Tienda" placeholder="Tienda">
-                                    <input type="file" class="form-control mb-3" name="Imagen" placeholder="URLimagen">
+                                    <input type="file" class="form-control mb-3" name="Imagen" placeholder="URLimagen" id="Imagen">
                                     
 
                                     <input type="submit" class="btn btn-primary">
